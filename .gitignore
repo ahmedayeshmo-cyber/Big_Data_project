@@ -1,0 +1,92 @@
+# ============================================
+# Python / Jupyter
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+develop-eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+environment/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+*.pyc
+
+# ============================================
+# Spark / Big Data
+# ============================================
+
+# Spark temporary files
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+*.tmp
+
+# Checkpoint directories (streaming)
+streaming/checkpoints/
+streaming/output/._*.parquet.crc
+streaming/output/_spark_metadata/
+streaming/output/._*.crc
+
+# ============================================
+# Data Files 
+# ============================================
+
+# Raw data
+data/raw/*.parquet
+data/raw/*.csv
+data/raw/*.json
+data/raw/*.arrow
+
+# Processed data
+data/processed/*.parquet
+data/processed/*.csv
+data/processed/*.json
+
+# Models (can be large)
+models/*/
+!models/.gitkeep
+
+# Streaming inbox/outbox data
+streaming/inbox/*.json
+streaming/output/*.parquet
+streaming/output/.*.crc
+
+
+
+
+
+
+
+
+
+
+
+
+*.tar.gz
+*.rar
+*.7z
